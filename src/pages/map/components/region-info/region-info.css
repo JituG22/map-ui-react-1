@@ -1,0 +1,54 @@
+.region-info-wrp {
+  color: #000;
+  border-top: 1px solid #989898;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 15px;
+  position: relative;
+  min-width: 250px;
+}
+.region-info-wrp p {
+    margin: 0;
+}
+.flag-img {
+    width: 40px;
+    margin-left: 5px;
+}
+.region-info-wrp .title {
+  width: 99px;
+  display: block;
+  float: left;
+}
+.region-info-wrp .val {
+  margin-left: 5px;
+}
+
+/* ---------------------- css  loding spiner ------------------------- */
+.lds-dual-ring {
+    display: table;
+    width: 80px;
+    height: 80px;
+    float: none;
+    margin: 0 auto;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+/* ------------------------------------------------------------- */

@@ -1,0 +1,32 @@
+.full-height {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.leaflet-container {
+    height:  calc(100vh - 64px);
+    width: 100%;
+    margin: 0 auto;
+  }
+  .leaflet-top {
+    margin-top: 80px;
+  }
+  .map-wrp .leaflet-marker-icon{
+    width: 29px;
+    height: 47px;
+  }
+
+/* -------- map  Zoom controler change posion----  */
+.leaflet-control-zoom {
+    position: fixed;
+    z-index: 1000;
+    top: 20%; 
+    right: 5%;
+}
+.leaflet-container {
+    height: 100vh;
+}
+
+
+  
